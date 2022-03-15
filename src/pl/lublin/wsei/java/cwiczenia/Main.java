@@ -5,10 +5,11 @@ package pl.lublin.wsei.java.cwiczenia;
 public class Main {
 
     public static void main(String[] args) {
-	System.out.println("Hello Java World\n");
+	System.out.print("Ala\n");
+    System.out.print("Ma\n");
+    System.out.print("Kota\n");
         // write your code here
         /* To jest
-        komentarz
         wielolinijkowy
          */
     }
