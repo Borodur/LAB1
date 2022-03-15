@@ -12,5 +12,6 @@ public class Main {
         Account acc = new Account();
         acc.setName("piotr Gołabek");
         System.out.println(acc.getName());
+        System.out.printf("%s%n",Account.capitalize("stanisŁaw maruSARz"));
     }
 }
