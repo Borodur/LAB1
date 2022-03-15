@@ -6,6 +6,16 @@ import java.util.Scanner;
  * @author W S M */
 public class Main {
 
+    public static String leftpad(String aText, char aChar, int aWidth){
+        String res = aText;
+        aChar = '0';
+        aWidth = 4;
+        for (int i = 0; i < aWidth - aText.length(); i++)
+            res = aChar + res;
+        return res;
+
+    }
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int num1;
@@ -20,4 +30,5 @@ public class Main {
         System.out.println("BIN = " + e);
 
     }
+
 }
