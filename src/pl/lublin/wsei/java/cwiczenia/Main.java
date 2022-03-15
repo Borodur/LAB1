@@ -14,4 +14,4 @@ public class Main {
         System.out.println(acc.getName());
         System.out.printf("%s%n",Account.capitalize("stanisŁaw maruSARz"));
     }
-}
+}}
