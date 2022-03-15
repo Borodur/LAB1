@@ -8,18 +8,16 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int num1=0, num2=0;
-        do {
-            System.out.print("Podaj liczby, które mam dodać: ");
+        int num1;
+        String d;
+        String e;
+            System.out.print("Podaj liczbę w systemie dziesiętnym, którą mam wypisać: ");
             num1 = input.nextInt();
-            num2 = input.nextInt();
-            if ((num1==0) || (num2==0)) break;
-            System.out.printf("Wynik dodawania %d + %d = %d%n", num1, num2, num1 + num2);
-            // write your code here
-        /* To jest
-        komentarz
-        wielolinijkowy
-         */
-        } while (true);
+        d = Integer.toHexString(num1);
+        e = Integer.toBinaryString(num1);
+        System.out.println("DEC = " + num1);
+        System.out.println("HEX = " + d);
+        System.out.println("BIN = " + e);
+
     }
 }
